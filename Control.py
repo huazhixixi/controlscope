@@ -66,7 +66,8 @@ if __name__ == '__main__':
     for i in range(10):
         save_waveforme_tocsv(f'{i}')
         time.sleep(5)
-
+    import winsound
+    winsound.Beep(500,1000)
 
 
 
